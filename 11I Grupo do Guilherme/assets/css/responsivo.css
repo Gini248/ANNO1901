@@ -1,0 +1,55 @@
+@media screen and (max-width: 1366px) {
+      
+.navbar .logo {
+    align-items: center;
+    position: absolute;
+    margin-top: -4.5%;
+}
+    .teste {
+        z-index: -1;
+        position: absolute;
+        width: 90%;
+        left: 4%;
+        margin-top: -50%;
+    }
+
+    .aprovados {
+        width: 40%;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: -65%;
+    }
+     
+    .rejeitados {
+        width: 40%;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: -2.5%;
+    }
+    .analisar {
+        width: 40%;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 160%;
+    }
+
+    .rejeitado_texto{
+        position: absolute;
+        margin-left: -1%;
+    }
+    .aprovado_texto{
+        margin-left: -64%;
+        position: absolute;
+
+    }
+    .banner{
+        align-items: center;
+        margin-top: 20%;
+    }
+    .subtext{
+        align-items: center;
+        margin-top: 140%;
+    }
+}
+
+ 

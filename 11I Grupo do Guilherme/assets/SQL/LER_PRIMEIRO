@@ -1,0 +1,21 @@
+Boa bom dia/boa tarde/boa noite professora, uma pequena nota:
+
+-Certifique-se que tem algum software semelhante ao XAMPP para poder dar host a tudo quando estiver a corrigir.
+ 
+-Abra o Xampp e clique no botão "start", nas filas do Apache e MySQL
+
+-De seguida clique no botão "Admin" na fila do MySQL, isso vai abrir o phpMyAdmin, aguarde breves momentos até à pagina carregar
+
+-Clique em na opção que "Novo" que se localiza a cima das bases de dados à esquerda da pagina
+
+-Atribua o no " anno_cands " à base de dados e crie a mesma
+
+-Após isso localize e selecione a opção SQL
+
+-Copie o codigo SQL presente (../../assets/SQL/anno_cands.sql) coloque-o na aba SQL 
+
+-Depois disso basta dar (CTRL + ENTER) e estará tudo pronto
+
+CONCLUINDO BASTA ABRIR ISTO |  http://localhost/11I%20Grupo%20do%20Guilherme/index.html   | CTRL + CLICK
+
+DASHBOARD | http://localhost/11I%20Grupo%20do%20Guilherme/assets/php/dashboard.php | CTRL + CLICK

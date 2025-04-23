@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url(../../assets/img/fundo.png) no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.historia, .detalhes_ooc, .detalhes_ic {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+    overflow-y: auto; /* Adiciona a barra de rolagem quando necessário */
+    max-height: 80%; /* Limita a altura para que a barra de rolagem apareça */
+}
+
+/* Detalhes OOC */
+.detalhes_ooc {
+    margin-left: -55%;
+    width: 30%;
+    height: 35%;
+    margin-top: 13%;
+}
+
+/* Detalhes IC */
+.detalhes_ic {
+    margin-left: -55%;
+    width: 30%;
+    height: 30%;
+    margin-top: 33%;
+}
+
+/* História */
+.historia {
+    width: 58%;
+    height: 70%;
+    margin-top: 13%;
+    margin-left: 38%;
+}
+
+/* Personalização da barra de rolagem */
+.historia::-webkit-scrollbar,
+.detalhes_ooc::-webkit-scrollbar,
+.detalhes_ic::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+.historia::-webkit-scrollbar-thumb,
+.detalhes_ooc::-webkit-scrollbar-thumb,
+.detalhes_ic::-webkit-scrollbar-thumb {
+    background-color: red; /* Cor do polegar (parte que o usuário arrasta) */
+    border-radius: 10px; /* Bordas arredondadas do polegar */
+}
+
+.historia::-webkit-scrollbar-track,
+.detalhes_ooc::-webkit-scrollbar-track,
+.detalhes_ic::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5); /* Cor da trilha da barra de rolagem */
+    border-radius: 10px; /* Bordas arredondadas da trilha */
+}
+
+.historia::-webkit-scrollbar-thumb:hover,
+.detalhes_ooc::-webkit-scrollbar-thumb:hover,
+.detalhes_ic::-webkit-scrollbar-thumb:hover {
+    background-color: red; /* Cor do polegar quando o mouse passa por cima */
+}
+
+/* Títulos */
+.detalhes_ooc h2, .detalhes_ic h2, .historia h2 {
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Parágrafos */
+.detalhes_ooc p, .detalhes_ic p, .historia p {
+    margin: 12px 0;
+}
+
+.detalhes_ooc strong, .detalhes_ic strong, .historia strong {
+    color: #555;
+}

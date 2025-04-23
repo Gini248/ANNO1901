@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.video{
+    position: absolute;
+    width: 100%;
+    z-index: -11;
+}
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: "Moon Dance", serif;
+    
+}
+.navbar .nav-left, .navbar .nav-right {
+    display: flex;
+    gap: 15px;
+}
+ 
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 180%;
+}
+.navbar :hover {
+    color: rgb(255, 0, 0);
+    
+}
+.container {
+    position: relative;
+    margin-top: 80px;
+}
+
+.subtext {
+    font-size: 1.2rem;
+    margin-top: 170%;
+    margin-left: -20%;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 320%;
+    font-family: "Moon Dance", serif;
+
+}
+
+.banner{
+margin-left: -80%;
+position: absolute;
+ margin-top: 53%;
+
+
+}
+.moon-dance-regular {
+    font-family: "Moon Dance", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.decrição{
+    margin-top: 65%;
+    position: absolute;
+    width: 50%;
+    font-size: 170%;
+font-family:' Garamond', Garamond, serif}
+.s{
+    position: absolute;
+    margin-top: 64%;
+    margin-left: 50%;
+}
+
+.ss{
+    position: absolute;
+    margin-top: 64%;
+    margin-left: -50%;
+}
+
+.cand{
+    font-family:' Garamond', Garamond, serif;
+    position: absolute;
+    height: 9%;
+    width: 20%;
+    font-size: 200%;
+    color: rgb(152, 17, 17);
+    background-color: rgba(0, 0, 142, 0);
+    border-color: rgb(152, 17, 17);
+    border-radius: 5%;
+    margin-top: 80%;
+    cursor: pointer;
+
+}
+.cand a{
+margin-left: -17%;
+}
+.cand img{
+    transition: transform 0.5s ease-in-out;
+    position: absolute;
+    margin-top: -3.5%;
+}
+
+.cand img :hover{
+    transform: rotate(360deg);
+
+}
+
+
+.logo_grande{
+    width: 40%;
+    position: absolute;
+    opacity: 20%;
+    margin-top: 52%;
+}
+
+.img1{
+    position: absolute;
+    margin-top: 120%;
+}

@@ -1,0 +1,40 @@
+
+.container, .navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: "Moon Dance", serif;
+}
+
+.navbar .nav-left, .navbar .nav-right {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 180%;
+}
+
+.navbar :hover {
+    color: rgb(255, 0, 0);
+}
+
+ .logo {
+     align-items: center;
+     margin-top: -4.5%;
+     position: absolute;
+    font-weight: bold;
+    color: white;
+}

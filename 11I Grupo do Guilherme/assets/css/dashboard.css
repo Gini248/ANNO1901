@@ -1,0 +1,50 @@
+body {
+    background: url(../../assets/img/fundo.png) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1366px;
+    margin-top: 4.2%;
+}
+
+.aprovados{
+    position: absolute;}
+.analisar{
+    position: absolute;
+}
+.rejeitados {
+    position: absolute;
+    flex: 1;
+}
+
+.espaço {
+    margin-top: 20%;
+    opacity: 0;
+}
+
+.teste{
+    position: absolute;
+}
+
+.aprovado_texto, .rejeitado_texto, .analisar_texto {
+    font-size: 4vw;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+       background: url(../../assets/img/fundo.png) no-repeat center center fixed;
+   }
+ }
